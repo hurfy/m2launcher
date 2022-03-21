@@ -61,5 +61,13 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.29.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hurfy/m2launcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hurfy/m2launcher/issues"
+  },
+  "homepage": "https://github.com/hurfy/m2launcher#readme"
 }

@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head id="head">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title id="title">Launcher</title>
-  <link href="res/css/main.css" rel="stylesheet">
+  <head id="head">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title id="title">Launcher</title>
+    <link href="res/css/main.css" rel="stylesheet" />
 
-  <!-- Fonts ---------------------------------------------------------->
-
-
-</head>
-<body id="body">
-  <video autoplay muted loop id="backgroundVideo">
-    <source src="img/summerBackground.mp4" type="video/mp4">
-  </video>
-  <div id="bar">
-    <div id="logo"><img src="img/svg/m2logo.svg"></div>
-    <div id="togglers">
-      <div id="settings"><img src="img/svg/settings.svg"></div>
-      <div id="hide"><img src="img/svg/hide.svg"></div>
-      <div id="close"><img src="img/svg/close.svg"></div>
+    <!-- Fonts ---------------------------------------------------------->
+  </head>
+  <body id="body">
+    <video autoplay muted loop id="backgroundVideo">
+      <source src="res/bg/summerBackground.mp4" type="video/mp4" />
+    </video>
+    <div id="bar">
+      <div id="logo"></div>
+      <div id="togglers">
+        <button class="menu-button" id="settings"></button>
+        <button class="menu-button" id="hide"></button>
+        <button class="menu-button" id="close"></button>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
   <script src="res/js/menuHandler.js"></script>
 </html>

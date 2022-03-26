@@ -1,11 +1,11 @@
-const $ = require('jquery');
-const {remote} = require('electron');
+const $ = require("jquery");
+const { remote } = require("electron");
 var win = remote.getCurrentWindow();
 
-$('#hide').click(function(){
+$("#hide").click(function () {
   win.minimize();
 });
 
-$('#close').click(function(){
+$("#close").click(function () {
   win.close();
 });

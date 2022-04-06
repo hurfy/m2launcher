@@ -13,6 +13,7 @@ function createWindow() {
     resizable: false,
     movable: true,
     center: true,
+    enableRemoteModule: true,
   });
   win.loadURL(
     url.format({
@@ -24,7 +25,7 @@ function createWindow() {
   win.on("closed", () => {
     win = null;
   });
-  //win.openDevTools();
+  win.openDevTools();
 }
 
 app.on("ready", createWindow);

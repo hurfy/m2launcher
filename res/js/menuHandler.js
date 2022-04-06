@@ -1,11 +1,10 @@
-const $ = require("jquery");
 const { remote } = require("electron");
 var win = remote.getCurrentWindow();
 
-$("#hide").click(function () {
+document.getElementById("hide").onclick = function () {
   win.minimize();
-});
+};
 
-$("#close").click(function () {
+document.getElementById("close").onclick = function () {
   win.close();
-});
+};

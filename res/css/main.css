@@ -9,6 +9,17 @@ body {
   user-select: none;
 }
 
+h1 {
+  color: #f3f3f3;
+  user-select: none;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #backgroundVideo {
   position: fixed;
   min-width: 100%;
@@ -68,4 +79,52 @@ body {
 
 #close:hover {
   background-color: #ba0000;
+}
+
+#download-window {
+  background-color: #201f20;
+  opacity: 0.9;
+  height: 450px;
+  width: 300px;
+
+  position: relative;
+  margin: auto;
+  top: 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#m2net {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+#build {
+  margin-bottom: 100px;
+}
+
+.download-button {
+  background-color: #f3f3f3;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2px;
+
+  width: 250px;
+  height: 80px;
+  margin: 7px;
+}
+
+.download-button:hover {
+  border-radius: 7px;
+  background-color: #a19f9f;
+}
+
+.download-button:focus {
+  outline: none;
 }
